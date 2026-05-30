@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header id="top" class="fixed top-0 left-0 right-0 z-50 bg-ivory/90 backdrop-blur-md border-b border-gold/20">
+  <div class="max-w-6xl mx-auto px-8 h-16 flex items-center justify-between">
+    <a href="#top" class="font-display text-xl tracking-widest2 font-light text-ebony hover:text-gold transition-colors duration-500">
+      SCIENCE&thinsp;SWEETS
+    </a>
+    <nav class="hidden md:flex items-center gap-10">
+      <a href="#compare"    class="text-xs tracking-widest2 font-sans font-light text-warm-gray hover:text-gold transition-colors duration-300 uppercase">比較</a>
+      <a href="#popping"    class="text-xs tracking-widest2 font-sans font-light text-warm-gray hover:text-gold transition-colors duration-300 uppercase">物理</a>
+      <a href="#neruneru"   class="text-xs tracking-widest2 font-sans font-light text-warm-gray hover:text-gold transition-colors duration-300 uppercase">化学</a>
+      <a href="#conclusion" class="text-xs tracking-widest2 font-sans font-light text-warm-gray hover:text-gold transition-colors duration-300 uppercase">結論</a>
+    </nav>
+  </div>
+</header>
+<section class="min-h-screen bg-ebony flex flex-col justify-center relative overflow-hidden pt-16">
+  <div class="absolute left-[10%] top-0 bottom-0 w-px bg-gold/10 hidden lg:block"></div>
+  <div class="absolute right-[10%] top-0 bottom-0 w-px bg-gold/10 hidden lg:block"></div>
+  <div class="absolute top-1/4 right-[15%] w-64 h-64 rounded-full border border-gold/8 animate-float-slow hidden md:block"></div>
+  <div class="absolute bottom-1/4 left-[12%] w-40 h-40 rounded-full border border-gold/12 animate-float-slow hidden md:block" style="animation-delay:-3s"></div>
+  <div class="max-w-6xl mx-auto px-8 py-24 w-full">
+    <p class="animate-fade-up text-xs tracking-widest3 text-gold font-sans font-light uppercase mb-10">The Science of Sensation</p>
+    <div class="hairline w-24 mb-12 origin-left animate-line-grow"></div>
+    <div class="animate-fade-up delay-200">
+      <h1 class="font-display font-light leading-none text-ivory">
+        <span class="block text-[clamp(3.5rem,10vw,9rem)] tracking-tight">パチパチ</span>
+        <span class="block text-[clamp(1.2rem,2.5vw,2rem)] tracking-widest2 text-gold/60 font-light italic ml-2 my-4">versus</span>
+        <span class="block text-[clamp(3.5rem,10vw,9rem)] tracking-tight text-gold-gradient">シュワシュワ</span>
+      </h1>
+    </div>
+    <div class="animate-fade-up delay-400 mt-10 max-w-xl">
+      <p class="font-serif font-light text-ivory/50 text-base leading-loose tracking-wide">
+        ポッピングシャワーと凍らせたねるねるねるね——ふたつの「炭酸感」を科学の視点で解剖する。
+      </p>
+    </div>
+    <div class="animate-fade-up delay-500 flex flex-wrap gap-4 mt-12">
+      <span class="inline-flex items-center gap-3 border border-gold/40 px-6 py-3 text-xs tracking-widest2 text-gold uppercase font-light">
+        <span class="w-1.5 h-1.5 rounded-full bg-gold inline-block"></span>物理的現象
+      </span>
+      <span class="inline-flex items-center gap-3 border border-ivory/20 px-6 py-3 text-xs tracking-widest2 text-ivory/50 uppercase font-light">
+        <span class="w-1.5 h-1.5 rounded-full bg-ivory/40 inline-block"></span>化学的現象
+      </span>
+    </div>
+    <div class="animate-fade-in delay-700 absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
+      <span class="text-[10px] tracking-widest3 text-gold/40 uppercase font-light">Scroll</span>
+      <div class="w-px h-12 bg-gradient-to-b from-gold/40 to-transparent"></div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
